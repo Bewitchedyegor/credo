@@ -1,0 +1,449 @@
+/* Fonts */
+@font-face {
+    font-family: Open Sans SemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: Open Sans Bold;
+    src: url(../fonts/OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: Open Sans ExtraBold;
+    src: url(../fonts/OpenSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Open Sans Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+/* General styles */
+html,
+body {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+}
+a, a:hover, a:active, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+a, button {
+    -webkit-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+    transition: 0.2s ease-in-out;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+input[type="password"],
+input[type="email"] {
+    outline: none;
+}
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+h5 {
+    font-size: 32px;
+    font-family: "Open Sans ExtraBold", sans-serif;
+    color: #fff;
+    line-height: 38px;
+}
+.sections {
+    padding-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.btn-primary {
+    color: #ffffff;
+    border: 0;
+}
+.btn:focus,
+.btn:active {
+    outline: none;
+}
+
+/* Header */
+.navbar-brand {
+    padding-top: 0;
+    height: 62px;
+}
+.navbar-default {
+    background-color: transparent;
+    border: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #464646;
+    border-color: #464646;
+}
+.navbar {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-default .navbar-nav > .active a,
+.navbar-default .navbar-nav > .active a:hover {
+    background-color: transparent;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    font-family:'Open Sans SemiBold', sans-serif;
+}
+.navbar-default .navbar-nav > li > a:hover  {
+    color: #ccc;
+}
+.navbar-default .navbar-nav > li > a:focus  {
+    color: #fff;
+}
+.menu-bg{
+    background: #2a2426;
+}
+
+.navbar-nav > li > a {
+    line-height: 32px;
+}
+
+#our-package {
+    background: url(../img/featuresBg.png) center;
+    background-size: auto;
+}
+#our-project {
+    background: url(../img/graphBg.png) center;
+    background-size: cover;
+}
+#our-project h4 {
+    color: #333;
+}
+#menubar ul {
+    display: flex;
+}
+#menubar li {
+    margin: auto;
+    margin-left: 27px;
+}
+.navbar-toggle {
+    margin-top: 13px;
+}
+
+/* Section titles */
+.heading {
+    margin-bottom: 30px;
+    margin-top:4rem;
+}
+
+.heading .title h4 {
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 62.77px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    display: inline;
+}
+.heading .title.margin{
+    margin-top: -130px;
+}
+
+/* Subscribe */
+#home {
+    background-color: #fff;
+    color: #000;
+    background: url(../img/subscribeBG.png) no-repeat;
+    background-size: cover; 
+}
+.homepage-style {
+    padding-top: 25px;
+}
+.homepage-style .form {
+    padding-right: 0;
+}
+.homepage-style img {
+    margin-top: 145px;
+}
+.homepage-style ul {
+    font-family: 'Open Sans Light', sans-serif;
+    font-size: 28px;
+    color: #333;
+    margin-top: 23px;
+}
+.homepage-style li {
+    background: url(../img/check.png) no-repeat left 9px;
+    padding-left: 44px;
+    list-style: none;
+    margin: 0;
+}
+.homepage-style form {
+    margin-top: 25px;
+    padding-left: 44px;
+}
+.homepage-style input, .homepage-style input::-webkit-input-placeholder {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 27.9px;
+    color: #333;
+}
+.homepage-style input {
+    border: 2px solid #333;
+    border-radius: 30px;
+    width: 79%;
+    height: 43px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+.homepage-style input[type='password'] {
+    margin-bottom: 12px;
+}
+.homepage-style p {
+    text-align: center;
+    color: #333;
+    font-size: 12.57px;
+    font-family: 'OpenSans SemiBold', sans-serif;
+    display: inline-block;
+}
+.homepage-style p a {
+    color: #333;
+    text-decoration: underline;
+}
+.homepage-style .unique-apps h2 {
+    font-size: 62.77px;
+    font-family: 'Open Sans ExtraBold', sans-serif;
+    color: #333;
+    line-height: 68px;
+}
+.homepage-style .unique-apps h2 span {
+    color: #a90d2c;
+}
+.home-btn {
+    text-align: center;
+    margin-bottom: 45px;
+    width: 79%;
+}
+.home-btn button {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    background: linear-gradient(#af0010, #a51740);
+    background: -webkit-linear-gradient(#af0010, #a51740);
+    border-radius: 30px;
+    color: #fff;
+    font-size: 29.54px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    outline: none;
+}
+.home-btn button:hover {
+    background: linear-gradient(#a51740, #af0010);
+    background: -webkit-linear-gradient(#a51740, #af0010);
+    color: #fff;
+}
+
+/* Advantages */
+.package-item {
+    margin-bottom: 27px;
+    padding-top: 118px;
+}
+.package-item p {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans Light", sans-serif;
+    margin-top: 13px;
+}
+.main-package .package-item {
+    border-right: 1px solid #fff;
+}
+.main-package .package-item.first {
+    background: url(../img/platform.png) no-repeat center top;
+}
+.package-item.second {
+    background: url(../img/indicator.png) no-repeat center top;
+}
+.package-item.third {
+    background: url(../img/generalBase.png) no-repeat center top;
+    border: none;
+}
+
+/* Features */
+.main-project {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+.project-item {
+    margin: auto;
+    margin-bottom: 25px;
+    -webkit-flex: 1 1 15em;
+}
+.project-item .project-data {
+    font-family: 'Open Sans Bold', sans-serif;
+    height: 170px;
+    width: 170px;
+    border: 8px solid #ad0418;
+    border-radius: 90px;
+    font-size: 52px;
+    color: #333;
+    line-height: 159px;
+    margin: auto;
+}
+.project-item .project-data.days {
+    font-size: 36px;
+}
+.main-project .project-item h5 {
+    font-family: 'Open Sans SemiBold', sans-serif;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+/* Footer */
+.footer {
+    padding:50px 0 35px 0;
+}
+#footer {
+    background: url(../img/featuresBg.png) center;
+    background-size: auto;
+}
+#footer .partners {
+    min-height: 86px;
+    padding-left: 0;
+}
+#footer .subscribe {
+    display: flex;
+    align-items: center;
+    min-height: 118px;
+    padding-right: 0;
+}
+#footer ul {
+    margin-bottom: 31px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+}
+#footer .secondLine i {
+    margin-right: 22px;
+}
+#footer .firstLine i {
+    margin-right: 43px;
+}
+.cimb i {
+    background: url(../img/payments.png) no-repeat;
+    height: 43px;
+    width: 49px;
+    display: inline-block;
+}
+.dbs i {
+    background: url(../img/payments.png) no-repeat -97px 0;
+    height: 43px;
+    width: 96px;
+    display: inline-block;
+}
+.scotiabank i {
+    background: url(../img/payments.png) no-repeat -242px 0;
+    height: 43px;
+    width: 206px;
+    display: inline-block;
+}
+.paribas i {
+    background: url(../img/payments.png) no-repeat -495px 5px;
+    height: 43px;
+    width: 169px;
+    display: inline-block;
+}
+.anz i {
+    background: url(../img/payments.png) no-repeat -713px 6px;
+    height: 43px;
+    width: 107px;
+    display: inline-block;
+}
+.neteller i {
+    background: url(../img/payments.png) no-repeat 0 -43px;
+    height: 32px;
+    width: 169px;
+    display: inline-block;
+}
+.maestro i {
+    background: url(../img/payments.png) no-repeat -184px -41px;
+    height: 32px;
+    width: 52px;
+    display: inline-block;
+}
+.mastercard i {
+    background: url(../img/payments.png) no-repeat -273px -41px;
+    height: 32px;
+    width: 50px;
+    display: inline-block;
+}
+.visa i {
+    background: url(../img/payments.png) no-repeat -359px -41px;
+    height: 32px;
+    width: 54px;
+    display: inline-block;
+}
+.webmoney i {
+    background: url(../img/payments.png) no-repeat -444px -41px;
+    height: 32px;
+    width: 115px;
+    display: inline-block;
+}
+.qiwi i {
+    background: url(../img/payments.png) no-repeat -581px -38px;
+    height: 36px;
+    width: 67px;
+    display: inline-block;
+}
+.wire i {
+    background: url(../img/payments.png) no-repeat -667px -38px;
+    height: 36px;
+    width: 61px;
+    display: inline-block;
+}
+.western i {
+    background: url(../img/payments.png) no-repeat -746px -38px;
+    height: 37px;
+    width: 77px;
+    display: inline-block;
+}
+#footer .anz i, #footer .western i {
+    margin-right: 0;
+}
+#footer .home-btn {
+    margin: auto;
+}
+.main-footer {
+    clear: both;
+    padding-right: 15px;
+}
+.main-footer p {
+    text-align: center;
+    font-family: "Open Sans SemiBold", sans-serif;
+    font-size: 14px;
+    color: #838383;
+    border-top: 1px solid #fff;
+    padding-top: 12px;
+}
+.main-footer p a {
+    color: #838383;
+    text-decoration: underline;
+}

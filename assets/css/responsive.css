@@ -1,0 +1,118 @@
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    body {
+        font-size: 15px;
+    }
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    html {
+        font-size: 80%;
+    }
+    #menubar ul {
+        display: block;
+    }
+    .navbar-default {
+        background-color: #2a2426;
+        border: transparent;
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle {
+        background-color: #464646;
+        border: 0;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle {
+        background-color: #000;
+    }
+    .homepage-style .unique-apps h2 {
+        font-size: 20px;
+    }
+    .main-history .history-heading {
+        margin: 30px 0;
+        text-align: center;
+    }
+    .homepage-style .unique-apps h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .main-history .history-img {
+        text-align: center;
+    }
+    .main-history .history-content .hst-btn {
+        text-align: center;
+    }
+    .homepage-style .slider-area {
+        margin-top: 30px;
+    }
+    .homepage-style input, .home-btn, .homepage-style p {
+        width: 94%;
+    }
+    .home-btn {
+        margin-bottom: 35px;
+    }
+    .homepage-style img {
+        display: none;
+    }
+    .main-package .package-item {
+        border: 0;
+    }
+    .heading .title h4 {
+        font-size: 41.77px;
+    }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 480px) {
+    html {
+        font-size: 65%;
+    }
+    .homepage-style .unique-apps h2 {
+        font-size: 33px;
+        line-height: normal;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border: 0;
+    }
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 60.5%;
+    }
+    .homepage-style .unique-apps h2 {
+        font-size: 24px;
+    }
+    .heading .title h4 {
+        font-size: 29px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .home-btn button {
+        font-size: 21.54px;
+    }
+    #home.sections {
+        padding-top: 64px;
+    }
+    .homepage-style form {
+        padding-left: 0;
+    }
+    .homepage-style input {
+        font-size: 23.9px;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-package .package-item {
+        border: 0;
+    }
+}
